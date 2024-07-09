@@ -84,16 +84,7 @@ router.post("/appointment-confirm", checklogin, async (req, res) => {
     appointment_slot,
     user,
   } = req.body;
-  console.log(
-    patient_name,
-    patient_email,
-    patient_phone,
-    patient_gender,
-    doctor_id,
-    appointment_date,
-    appointment_slot,
-    user
-  );
+ 
   try {
     const appointment = await aptModel.create({
       patient_name,
@@ -125,11 +116,9 @@ router.post("/appointment-confirm", checklogin, async (req, res) => {
 
 router.get("/appointment-history", checklogin, async (req, res) => {
   const user = req.body.user;
-  console.log(user.id)
-  try {
+   try {
     const apt=await aptModel.find({user_id:user.id})
-    console.log(apt)
-    if(apt.length > 0){
+     if(apt.length > 0){
       return res.status(200).json(apt)
     }
     return res.status(404).json('appointment not found')
