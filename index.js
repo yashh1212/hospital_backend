@@ -24,5 +24,4 @@ app.use("/feedback", feedback);
 app.listen(process.env.port, () =>
   console.log("server started at", process.env.port)
 );
-
-// module.exports.handler=serverless(app)
+module.exports = app;
