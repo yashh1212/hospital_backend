@@ -10,7 +10,6 @@ const router = express.Router();
 
 router.get("/appointment_confirm", checklogin, async (req, res) => {
   const { doctor_name, speciality } = req.query;
-  console.log(speciality);
   try {
     const doctor = await DoctorModel.find({
       $or: [{ doctor_name }, { speciality }],
@@ -29,7 +28,6 @@ router.get("/doctor_information", checklogin, async (req, res) => {
   const dct_id = req.query.doctor_id;
   try {
     const doctor = await DoctorModel.findOne({ _id: dct_id });
-    console.log(doctor);
     if (doctor.length <= 0) {
       return res.status(404).json("doctor not found");
     }
@@ -44,7 +42,6 @@ router.get("/generate-paymentID", checklogin, async (req, res) => {
   const apiKey = process.env.payment_api_key;
   const apiSecret = process.env.payment_api_secret;
 
-  console.log(apiKey);
   const url = "https://api.razorpay.com/v1/orders";
   const headers = {
     "Content-Type": "application/json",
