@@ -35,13 +35,11 @@ router.post("/SignIn", async (req, res) => {
   }
 });
 
-router.post("/signUp", async (req, res) => {
+router.post("/signUp", async(req,res) => {
   const { email, password } = req.body;
-  console.log(req.body)
-  try {
+   try {
     const user =await UserModel.findOne({ email });
-    console.log(user)
-    if (!user) {
+     if (!user) {
       return res.status(401).json({ msg: "enter valid email or password" });
     }
     const valid = await bcrypt.compare(password, user.password);
