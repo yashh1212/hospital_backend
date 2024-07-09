@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "667d1bca3241819a6509dafc"
+  },
+  "name": "yash dhokane",
+  "email": "dhokane@gmail.com",
+  "country": "india",
+  "mobile_no": {
+    "$numberLong": "9881967037"
+  },
+  "password": "$2a$10$.3fPYSR3F68SaDnKeyWT8OJ7SO94cLemT/sEhOJQQy4GKqNgIYEOK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d1c073241819a6509db00"
+  },
+  "name": "yash  dhokane",
+  "email": "yashdhokane12@gmail.com",
+  "country": "India",
+  "mobile_no": {
+    "$numberLong": "7588158307"
+  },
+  "password": "$2a$10$0QOcTh0TaP5U3TkWQWWfVeJqdShDorQmi33N.nAubxMRlsB9k6Jny",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6689aa75ca68d7f95d7595a7"
+  },
+  "name": "harshal  dhokane",
+  "email": "yashdhokane12@gmail.com12",
+  "country": "india",
+  "mobile_no": {
+    "$numberLong": "9881967037"
+  },
+  "password": "$2a$10$uvuzlKYhfO.Fjr1J8FeqpumCcI9iacoiRQQP.NOdbXxvfrq2lGf5a",
+  "__v": 0
+}]

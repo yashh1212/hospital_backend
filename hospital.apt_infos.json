@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6689a81f45e67cecfc024205"
+  },
+  "patient_name": "yash dhokane",
+  "patient_email": "hulk.yt98@gmail.com",
+  "patient_phone": {
+    "$numberLong": "7588158307"
+  },
+  "patient_gender": "male",
+  "appointment_date": "2024-07-23",
+  "appointment_slot": "12:00 PM - 12:15 PM",
+  "doctor_id": "667d2fe9172cad6196450d63",
+  "user_id": "667d1c073241819a6509db00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6689aac1ca68d7f95d7595b1"
+  },
+  "patient_name": "varshadhokane",
+  "patient_email": "hulk.yt98@gmail.com",
+  "patient_phone": {
+    "$numberLong": "7588158307"
+  },
+  "patient_gender": "male",
+  "appointment_date": "2024-07-17",
+  "appointment_slot": "10:30 AM - 10:45 AM",
+  "doctor_id": "667d2fe9172cad6196450d63",
+  "user_id": "6689aa75ca68d7f95d7595a7",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668ab2ccd40514db5b3caa51"
+  },
+  "patient_name": "snnksjjssksmnsm",
+  "patient_email": "hulk.yt98@gmail.com",
+  "patient_phone": {
+    "$numberLong": "7588158307"
+  },
+  "patient_gender": "male",
+  "appointment_date": "2024-07-27",
+  "appointment_slot": "10:30 AM - 10:45 AM",
+  "doctor_id": "667d2fe9172cad6196450d62",
+  "user_id": "667d1c073241819a6509db00",
+  "__v": 0
+}]

@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d58"
+  },
+  "doctor_name": "yash dhokane",
+  "speciality": "Cardiologist",
+  "education": "mbbs",
+  "area_of_expertise": "Kidney disorders (actute & chronic), Critical Care Nephrology, Hemodialysis and Transplantation, Kidney Transplant and management of Renal conditions"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d59"
+  },
+  "doctor_name": "hrshal dhokane",
+  "speciality": "Cardiologist",
+  "education": "mbbs",
+  "area_of_expertise": "Kidney disorders (actute & chronic), Critical Care Nephrology, Hemodialysis and Transplantation, Kidney Transplant and management of Renal conditions"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d5a"
+  },
+  "doctor_name": "yash dhokane",
+  "speciality": "Cardiologist",
+  "education": "mbbs",
+  "area_of_expertise": "Kidney disorders (actute & chronic), Critical Care Nephrology, Hemodialysis and Transplantation, Kidney Transplant and management of Renal conditions"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d5b"
+  },
+  "doctor_name": "yash ",
+  "speciality": "Cardiologist",
+  "education": "mbbs",
+  "area_of_expertise": "Kidney disorders (actute & chronic), Critical Care Nephrology, Hemodialysis and Transplantation, Kidney Transplant and management of Renal conditions"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d5c"
+  },
+  "doctor_name": "Dr. Ayan Kumar Dey",
+  "speciality": "Nephrology",
+  "education": "Fellowship in Adult Nephrology & Transplantation (Toronto), DNB Nephrology (Gold medal), DNB Internal Medicine, FCCCM (Gold medal)",
+  "area_of_expertise": "Kidney disorders (Acute & Chronic), Critical care Nephrology, Hemodialysis and Transplantation, Kidney transplant and management of renal conditions"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d5d"
+  },
+  "doctor_name": "Dr. Pankaj Deshpande",
+  "speciality": "Nephrology",
+  "education": "MRCP (UK), MD (Paed), FCPS (Child health), DCH",
+  "area_of_expertise": "Kidney disorders in children"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d5e"
+  },
+  "doctor_name": "Dr. Roopkumar Gursahani",
+  "speciality": "Neurology",
+  "education": "MBBS, M.D (Pediatrics), Diplomate of American Board of Neurology with Special competence in Child Neurology, Diplomate of the American Board of Clinical Neurophysiology",
+  "area_of_expertise": "Intractable Epilepsy, Neurometabolic Disorders, Autism and other Neurologic problem"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d5f"
+  },
+  "doctor_name": "Dr. Megha Dhamne",
+  "speciality": "Neurology",
+  "education": "MBBS, MD Medicine, MD Neurology(American Board Certified), Fellowship in Neuromuscular Medicine, Cleveland Clinic, USA\n",
+  "area_of_expertise": "Neuromuscular Medicine, EMG/NCS study, nerves and muscles disorders, myasthenia gravis, myopathies, myositis, CIDP and GBS and motor neuron disease."
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d60"
+  },
+  "doctor_name": "Dr. Sachin Almel",
+  "speciality": "Cancer",
+  "education": "M.B.B.S, M.D (Int. Med), D.M (Med. Oncology)",
+  "area_of_expertise": "Hematological Malignancies. Genitourinary malignancies with special interest in testicular/ovarian and prostate malingnancies Sarcomas. Autologous Bone Marrow / Transplantation with special interest in High Dose Chemotherapy and Stem Cell Rescue. Gastrointestinal and Colorectal Tumors. Pediatric Malignancies. Special Interest in Immunotherapy."
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d61"
+  },
+  "doctor_name": "Dr. Sanjay Agarwala",
+  "speciality": "Orthopedic",
+  "education": "M.B.B.S., M.C.P.S., D.Ortho, M.S. (Orth), M.Ch. (Orth)(ENG)",
+  "area_of_expertise": "• Total Knee Replacement • Total Hip Replacement • Trauma and Fracture Fixation using AO techniques • Primary and Revision Joint Surgery • High Tibial Osteotomy • Arthroscopy of the knee for sports injuries • Micro Lumbar Discectomy"
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d62"
+  },
+  "doctor_name": "Dr. Chirag B Punatar",
+  "speciality": "Urology",
+  "education": "M.B.B.S., M.S. (Surgery), DNB (Urology)",
+  "area_of_expertise": "Endourological procedures for kidney stone disease and prostate problems, Reconstructive urology, Renal transplantation, Female and paediatric urology, Cancers of kidney, urinary bladder, prostrate and male genitalia."
+},
+{
+  "_id": {
+    "$oid": "667d2fe9172cad6196450d63"
+  },
+  "doctor_name": "alan almeida",
+  "speciality": "Cardiologist",
+  "education": "mbbs",
+  "area_of_expertise": "Kidney disorders (actute & chronic), Critical Care Nephrology, Hemodialysis and Transplantation, Kidney Transplant and management of Renal conditions"
+}]
