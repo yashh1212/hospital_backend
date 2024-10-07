@@ -13,7 +13,7 @@ require("dotenv").config();
 const app=express()
 app.use(express.json())
 const corsOptions = {
-  origin: ['https://shrikrushna-hospital.netlify.app'],  
+  origin: ['https://shrikrushna-hospital.netlify.app','http://localhost:3000'],  
   methods: 'GET,POST,PUT,DELETE',
   credentials: true, 
 };
