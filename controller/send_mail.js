@@ -20,7 +20,7 @@ const sendEmail = async (
   });
 
   let message = {
-    from: "yash.portfolio.message@gmail.com",
+    from:process.env.mail,
     to: receiver_mail,
     subject: `Your Appointment Details`,
     text: `Dear ${patient_name}, your appointment (ID: ${appointment_id}) with ${doctor_id} has been confirmed for ${date} at ${slot} for Shrikrushna Hospital. You can also book an appt (Physical/Tele consult) via www.HeartCare.com. For any other assistance, WhatsApp 9881967037. Rest assured we are following all safety protocols.`,
@@ -48,7 +48,7 @@ const sendEmail_apt = async (
   });
 
   let message = {
-    from: "yash.portfolio.message@gmail.com",
+    from: process.env.mail,
     to: receiver_mail,
     subject: `Your Appointment is cancled`,
     text: `Dear ${user_name}, your appointment (ID: ${id}) for data ${date} to doctor ${dct_od}is cancled`
